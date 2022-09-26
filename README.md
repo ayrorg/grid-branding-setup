@@ -1,6 +1,13 @@
 # Grid Branding – Computer Setup
 
-To get started, you can run this command to install the [common programs].
+To get started, you'll need to install Homebrew. You can do that by running this command:
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+
+To install the the [common programs], run this:
 
 ```shell
 curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/Brewfile | brew bundle --file=-
