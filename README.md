@@ -6,8 +6,7 @@ To get started, you'll need to install Homebrew. You can do that by running this
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-
-To install the the [common programs], run this:
+To install the [common programs], run this:
 
 ```shell
 curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/Brewfile | brew bundle --file=-
@@ -15,26 +14,28 @@ curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/Brewfile 
 
 [common programs]: https://github.com/ayrorg/grid-branding-setup/blob/main/Brewfile
 
-- **Advisors**
+Next, you'd want to choose which category to install.
 
-  Read more here: https://github.com/ayrorg/grid-branding-setup/blob/main/advisors/Brewfile
+### Advisors
 
-  ```
-  curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/advisors/Brewfile | brew bundle --file=-
-  ```
+Read more here: https://github.com/ayrorg/grid-branding-setup/blob/main/advisors/Brewfile
 
-- **Creatives**
+```
+curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/advisors/Brewfile | brew bundle --file=-
+```
 
-  Read more here: https://github.com/ayrorg/grid-branding-setup/blob/main/creatives/Brewfile
+### Creatives
 
-  ```
-  curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/creatives/Brewfile | brew bundle --file=-
-  ```
+Read more here: https://github.com/ayrorg/grid-branding-setup/blob/main/creatives/Brewfile
 
-- **Project Managers**
+```
+curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/creatives/Brewfile | brew bundle --file=-
+```
 
-  Read more here: https://github.com/ayrorg/grid-branding-setup/blob/main/project-manager/Brewfile
+### Project Managers
 
-  ```
-  curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/creatives/Brewfile | brew bundle --file=-
-  ```
+Read more here: https://github.com/ayrorg/grid-branding-setup/blob/main/project-manager/Brewfile
+
+```
+curl https://raw.githubusercontent.com/ayrorg/grid-branding-setup/main/creatives/Brewfile | brew bundle --file=-
+```
